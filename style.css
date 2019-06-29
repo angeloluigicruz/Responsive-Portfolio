@@ -1,0 +1,178 @@
+.navbar {
+    margin-top: 10px;
+    margin-left: 40px;
+    position: relative;
+    height: 75px;
+    background-color: white;
+    width: 90%;
+
+}
+
+.navbar h1{
+    background-color: teal;
+    color: white;
+    text-align: center;
+    width: 20%;
+    padding: 20px;
+    margin-top: 0px;
+    margin-left: 45px;
+    position: absolute;
+    float:left;
+    height: 35px;
+}
+
+/*
+.navbar a{
+    color: grey;
+    float: left;
+    border: 1px solid green;
+    position: absolute;
+
+    left: 200px;
+}
+*/
+
+.about {
+    color: grey;
+    float:right;
+    left:900px;
+    clear: both;
+    margin-right: 250px;
+    margin-top: 28px;
+
+}
+
+.portfolio {
+    color: grey;
+    float: right;
+    clear:both;
+    margin-top: -19px;
+    margin-right: 162px;
+}
+
+.contact {
+    color: grey;
+    float: right;
+    clear: both; 
+    margin-top: -20px;
+    margin-right: 90px;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.container {
+    background-color: white;
+    border: 1px solid lightgray;
+    margin-top: 20px;
+    margin-left: 40px;
+    position: relative;
+    height: 300px;
+    width: 90%; 
+}
+
+.photo {
+    height:200px;
+    width: 140px;
+    position: absolute;
+    float: left;
+    margin-left: 10px;
+}
+
+.textone {
+    float: left;
+    color: gray; 
+    margin-left:160px;
+    margin-top: 0.5px;
+    padding: 6px;
+}
+
+.texttwo {
+    float: left;
+    color: gray; 
+    margin-left:160px;
+    margin-top: 0.5px;
+    padding: 6px;
+}
+
+.aboutme {
+    margin-left: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+    color: teal;
+    
+}
+
+.footer {
+    border-top: 10px solid teal;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding: 1px;
+    width: 90%;
+    background-color: gray;
+}
+
+/* Contact Form CSS starts here */
+
+.contactform {
+    border: 1px solid black;
+    margin-top: 25px;
+    margin-left: 40px;
+    height: 300px;
+    width: 90%; 
+    background-color: white;
+    color: gray;
+    position: relative;
+
+}
+
+.contacttext {
+    margin-left: 25px;
+    margin-top: 15px;
+    padding-bottom: 5px;
+    position: absolute;
+    border-bottom: 1px solid gray;
+    width: 820px;
+    color: teal;
+}
+
+form {
+    margin-top: 80px;
+    margin-left: 25px;
+
+
+}
+
+.textbox {
+    width: 95%;
+    color: lightgray;
+}
+/* Portfolio CSS starts here */
+
+.portfoliobox {
+    width: 90%;
+    padding-bottom: 400px;
+    margin-top: 25px;
+    margin-left: 40px;
+    background-color: white;
+    color: teal;
+    position: relative;
+}
+
+.portfoliotext {
+    margin-left: 15px;
+    margin-top:15px;
+    width: 830px;
+    border-bottom: 1px solid gray;
+    position: absolute;
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 760px) {
+    background-color: teal;
+}
+
+
+/* 980 768 640 */
